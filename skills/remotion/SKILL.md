@@ -1,6 +1,6 @@
 ---
 name: remotion
-description: Programmatic React video. Use when you want Remotion overlays, motion graphics, or a React composition rendered to mp4. Isolated slot. Not a second video stack — video/portrait still own footage.
+description: Programmatic React video. Use for Remotion overlays, motion graphics, or a React composition rendered to mp4. Generated motion only, footage stays with video and portrait.
 ---
 
 # remotion

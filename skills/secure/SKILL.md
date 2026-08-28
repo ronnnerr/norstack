@@ -1,11 +1,11 @@
 ---
 name: secure
-description: Use when auditing security, hunting secrets, reviewing auth, threat modeling, OWASP, skill-supply-chain, CSO review, pentest review, or hardening the desktop app, the video product, pred, or the agency. Read-only. Not exploit writing.
+description: Security audit. Use when hunting secrets, reviewing auth, threat modeling, checking skill supply chain, or hardening an app before it goes public. Read-only, reports like a defender, never writes exploits.
 ---
 
 # secure
 
-your security audit. Remade from gstack `/cso` (no preamble, no telemetry) plus OWASP Top 10 and OWASP Agentic Skills Top 10 (AST10). Reports like a defender. Does not write exploits.
+your security audit. Built on OWASP Top 10 and OWASP Agentic Skills Top 10 (AST10). Reports like a defender. Does not write exploits.
 
 Default is **daily**: only findings you could explain to the user in one sentence with a file:line. Comprehensive is opt-in when you say deep / monthly.
 
@@ -16,8 +16,8 @@ Prioritize what you actually run:
 1. Secrets in git and `.env` (an exchange API keys, wallet seeds, API tokens)
 2. Skill supply chain (`~/norstack/skills`, `~/.grok/skills`, downloaded marketplaces)
 3. LLM tool use: user text into shell, unvalidated tool args
-4. App auth / RLS (the video product, pred)
-5. the desktop app local-first: nothing personal uploaded "to be helpful"
+4. App auth / RLS in any app you ship
+5. Local-first apps: nothing personal uploaded "to be helpful"
 6. Then classic OWASP on the repo in cwd
 
 ## Run
@@ -48,7 +48,6 @@ Exploit path: 3 steps, no payload
 Fix: the change
 ```
 
-Write the report to `~/.norstack/security/YYYY-MM-DD.md`. Not `.gstack/`.
 
 ## Hard rules
 
@@ -59,6 +58,5 @@ Write the report to `~/.norstack/security/YYYY-MM-DD.md`. Not `.gstack/`.
 
 ## Do not
 
-- Run gstack `/cso` (preamble, telemetry, lake intro).
 - Scan the whole home directory unless you asked.
 - Flag localhost docker-compose root as CRITICAL.

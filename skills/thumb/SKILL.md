@@ -1,13 +1,12 @@
 ---
 name: thumb
-description: Use when you want a YouTube thumbnail, Shorts cover, title card, clickable thumbnail, thumbnail text on a face or frame, or the channel / explainer cover art.
+description: Thumbnails and cover art. Use for a YouTube thumbnail, Shorts cover, title card, thumbnail text over a face or frame,.
 ---
 
 # thumb
 
 Type is code. Face or illustration is a picture. Do not ask an image model to spell the title.
 
-Load `profile`. Explainer covers follow `explainer` / `style.md`.
 
 ## Sizes
 
@@ -35,10 +34,10 @@ norstack thumb --title "YOU ARE" --accent "BARGAINING" --bg FRAME.jpg -o edit/th
 
 ## Look
 
-the channel talking-head: dark or muted, type-forward, one accent, face is the product.
-the channel explainer: paper cream, black grotesque, rust word. Looks like the video, not like a MrBeast face-screaming pack.
+Talking-head: dark or muted, type-forward, one accent, the face is the product.
+Explainer: flat ground, one grotesque, one accent word. It should look like the video.
 
-Never the desktop app purple. Never the agency blue on the channel. Never wellness pastel.
+Never carry one project's accent onto another. Palette comes from `profile`.
 
 ## Fail
 

@@ -1,11 +1,11 @@
 ---
 name: copy
-description: Conversion copy for the operator. Use for the agency landings, client pages, the channel titles, CTAs, headlines, pricing, about. Not email sequences. Not ads (use ads).
+description: Conversion copy. Use for landing pages, client pages, video titles, CTAs, headlines, pricing, and about pages. Not email sequences. Not paid ads, that is ads.
 ---
 
 # copy
 
-Load `profile`, then `taste`. Voice is the venture's, not a SaaS template.
+Load `profile`, then `taste`. Voice is the project's, not a SaaS template.
 
 ## Before a word
 
@@ -41,9 +41,7 @@ Landing page: one message, one CTA, match the ad if there is one.
 
 | Venture | Sound |
 |---|---|
-| the agency | Premium agency. Measurable. Charcoal/blue. No the desktop app cyber. |
-| the channel | Sharp educational. Not therapist. Not Headspace. |
-| the desktop app | Operator. Short. Keyboard. |
+| Any project | Register comes from `profile`. Read it before writing a line. |
 | Client | Their words. |
 
 After the copy is in the page, `browse` it. Copy you haven't seen in layout is a draft.

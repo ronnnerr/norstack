@@ -1,6 +1,6 @@
 ---
 name: ads
-description: Paid media for the agency and clients. Google, Meta, LinkedIn. Use for PPC, ROAS, CPA, campaigns, retargeting, "should I kill this ad." Creative generation is generate. Landing copy is copy.
+description: Paid media. Google, Meta, LinkedIn. Use for PPC, ROAS, CPA, campaign structure, retargeting, and "should I kill this ad". Landing page copy is copy.
 ---
 
 # ads
@@ -55,5 +55,5 @@ No tracking → don't scale. Learning phase → don't panic-edit. Exclude buyers
 
 ## Operator overlays
 
-- Client ads: their brand. the desktop app chrome on a dental ad is a miss.
+- Client ads use the client's brand. Your own product chrome on a client ad is a miss.
 - Never invent a testimonial or a ROAS.

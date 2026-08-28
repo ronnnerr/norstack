@@ -1,6 +1,6 @@
 ---
 name: content
-description: What to make, not the draft. Use for content strategy, topic clusters, editorial calendar, the channel series, the agency blog/YouTube plan. Writing a page is copy. Technical SEO is seo.
+description: What to make, not the draft. Use for content strategy, topic clusters, editorial calendars, and channel series planning. Writing the page is copy. Technical SEO is seo.
 ---
 
 # content
@@ -15,7 +15,7 @@ Goal (traffic / leads / trust), audience questions, what already works, what you
 
 ## Pillars
 
-3–5 topics the venture can own. Each pillar = a cluster, not one viral.
+3–5 topics the project can own. Each pillar = a cluster, not one viral.
 
 Good pillar: product-true, audience-true, enough subtopics, not a one-off.
 
@@ -40,6 +40,6 @@ Ship the top of that list, not the cleverest title.
 
 ## Operator overlays
 
-- the channel: YouTube + shorts. Face is the product on camera. Explainers go through `script` + `explainer`. `hook` / `portrait` / `post` to make talking-head.
-- the agency: client acquisition and agency proof. No fake case-study numbers.
+- Channel work: video plus shorts. Use `hook`, `portrait`, and `post` for talking-head.
+- Client and agency work: acquisition and proof. Never invent case-study numbers.
 - Don't plan 40 posts. Plan 8 you can finish.

@@ -22,7 +22,7 @@ Load `profile` before anything that has a look or a voice.
 | Identity | `norstack` `profile` |
 | Browser | `browse` `headed` `scrape` `qa` |
 | Video | `video` `portrait` `clip` `post` `hook` `thumb` `shorts` `film` |
-| Writing | `script` `explainer` `copy` `content` `humanizer` |
+| Writing | `script` `copy` `content` `humanizer` |
 | Marketing | `seo` `ads` |
 | Design | `ui` `taste` |
 | Motion | `remotion` `hyperframes` |
@@ -45,7 +45,6 @@ Load `profile` before anything that has a look or a voice.
 | First three seconds | `hook` |
 | Thumbnail or cover | `thumb` |
 | Write the script or the hook line | `script` |
-| Animated explainer, evidence cards | `explainer` |
 | Assemble the film | `film` |
 | Write the page | `copy` |
 | What should we publish | `content` |

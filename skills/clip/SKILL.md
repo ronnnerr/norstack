@@ -1,13 +1,12 @@
 ---
 name: clip
-description: One-shot social video. Use when you drop a talking-head and wants it done — portrait, face tracked, branded, ready to post.
+description: One-shot social video from a talking-head take. Use when you drop raw footage and want a finished, cropped, branded clip back.
 ---
 
 # clip
 
-Detect the venture from the folder and filename.
+Detect the project from the folder and filename.
 
-- the channel / psych → `channel`
 - else ask one word: which brand?
 
 Then:

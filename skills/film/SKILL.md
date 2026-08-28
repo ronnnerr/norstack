@@ -1,6 +1,6 @@
 ---
 name: film
-description: Use when assembling a the channel or anime film, matting Null to PNG, ingesting your voice take, writing shots.json, or checking the anime episode inbox. The factory. Not seeing raw footage (video) and not writing the script (script).
+description: Assemble a finished film from parts. Use when matting a character to PNG, ingesting a voice take, writing shots.json, or checking the episode inbox. Seeing raw footage is video. Writing the words is script.
 ---
 
 # film
@@ -18,16 +18,16 @@ norstack thumb --title "YOU ARE" --accent "BARGAINING" --look explainer -o edit/
 norstack card --author Wilson --year 2014 --finding "..." -o edit/cards/01.png
 ```
 
-Drop folder is `~/Media/norstack/drop`. `film drop` classifies: wav → the channel voice, mp4 while inbox is waiting → anime episode.
+Drop folder is `~/Media/norstack/drop`. `film drop` classifies: wav is a voice take, mp4 while the inbox is waiting is an episode file.
 
-## the channel
+## Narrated film
 
 1. `script`, then you record.
 2. `film voice` your take → `shots.json` + transcript.
 3. Agent fills titles / receipts on the skeleton. Do not invent a VO.
 4. `film assemble`. Then `video` `see` the preview.
 
-## Anime
+## Episode workflow
 
 1. Name the episode. `film inbox set`. Stop.
 2. You drop the file.

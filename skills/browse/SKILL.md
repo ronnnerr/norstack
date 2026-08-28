@@ -1,30 +1,29 @@
 ---
 name: browse
-description: your persistent headless Chromium. Use when opening, testing, screenshotting, dogfooding, scraping, or verifying any site or local app. Replaces gstack browse personality. Engine is still the gstack browse daemon.
+description: Persistent headless Chromium for the agent. Use when opening, testing, screenshotting, dogfooding, scraping, or verifying any site or local app. Needs a headless Chromium CLI on your machine.
 ---
 
 # browse
 
 Persistent headless Chromium. First call ~3s, then ~100ms. Cookies, tabs, logins persist.
 
-This is your browser skill. No telemetry. No upgrade sermon. No gstack branding.
 
 ## Setup (once per session)
 
 ```bash
 B="$HOME/norstack/bin/browse"
-[ -x "$B" ] || B="$HOME/.claude/skills/gstack/browse/dist/browse"
+[ -x "$B" ] || B="${NORSTACK_BROWSE_BIN:-browse}"
 "$B" status >/dev/null 2>&1 || true
 echo "B=$B"
 ```
 
 Every command below is `"$B" ...`. In shell snippets, `$B` means that binary.
 
-If the binary is missing, stop and tell the user: gstack browse engine is gone. Don't invent a second Puppeteer.
+If the binary is missing, stop and tell the user: no headless browser CLI found. Don't invent a second Puppeteer.
 
 ## your loops
 
-Detect the venture from cwd (`~/norstack/config/sites.json`). Then actually open the thing.
+Detect the project from cwd (`~/norstack/config/sites.json`). Then actually open the thing.
 
 ### Local app
 ```bash
@@ -71,8 +70,8 @@ $B resume
 
 ### Save a logged-in session
 ```bash
-$B state save pred
-$B state load pred
+$B state save myproject
+$B state load myproject
 ```
 
 ## Snapshot and refs
@@ -105,12 +104,12 @@ Tabs: `tabs` `newtab` `tab <id>` `closetab`
 
 Session: `status` `stop` `restart` `handoff` `resume` `state save|load` `cookie-import-browser` `connect` `disconnect`
 
-Full flag list if needed: `~/.claude/skills/gstack/browse/SKILL.md` starting at "Snapshot Flags". Use that as a reference manual only.
+Full flag list if needed: `your browser CLI's own docs` starting at "Snapshot Flags". Use that as a reference manual only.
 
 ## Rules
 
 1. After any screenshot command, Read the PNG. Otherwise the user sees nothing.
 2. Prefer `$B` over writing Puppeteer or launching a second Chrome.
 3. Three failed interactions → `handoff`, don't loop.
-4. For the desktop app / the video product / pred local servers, check `console --errors` before declaring it works.
+4. For any local dev server, check `console --errors` before declaring it works.
 5. Don't dump the whole HTML into context. `text`, `snapshot -i`, screenshot.

@@ -1,6 +1,6 @@
 ---
 name: hook
-description: Use when cutting the first 3 seconds of existing footage, a cold open from a take, or isolating a the channel opener already on camera. Writing a hook line or a full script is script.
+description: Cut the first three seconds from existing footage, or isolate a cold open already on camera. Writing a hook line from scratch is script.
 ---
 
 # hook
@@ -12,4 +12,4 @@ Footage in → first 3 seconds out. Words on a blank page → `script`.
 3. Cut on a word boundary if there is a transcript. Never mid-word.
 4. If this will be a short, run `portrait` on the hook window, not the whole file.
 
-Do not diagnose. Do not invent studies. the channel → `channel`.
+Do not diagnose. Do not invent studies.

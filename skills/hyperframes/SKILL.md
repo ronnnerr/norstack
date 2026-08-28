@@ -1,6 +1,6 @@
 ---
 name: hyperframes
-description: HTML/CSS/GSAP video compositions. Use for UI motion, kinetic type, product mockups-to-video, transparent overlays. Isolated slot. Not footage editing.
+description: HTML, CSS, and GSAP video compositions. Use for UI motion, kinetic type, product mockups turned into video, and transparent overlays. Not footage editing.
 ---
 
 # hyperframes

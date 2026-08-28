@@ -1,6 +1,6 @@
 ---
 name: grill
-description: Relentless interview to lock a plan. Use when you say grill this, stress-test the plan, or a design has unmade forks. User-invoked. Do not grill after you already said build it.
+description: Relentless interview to lock a plan. Use when you say grill this or stress test the plan, or when a design has unmade decisions. Do not grill after you have already said build it.
 ---
 
 # grill

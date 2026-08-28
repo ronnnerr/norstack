@@ -1,11 +1,11 @@
 ---
 name: postgres
-description: Postgres and Supabase for the operator. Use when writing SQL, migrations, RLS, indexes, or diagnosing slow queries. Especially the video product. Not the desktop app local SQLite.
+description: Postgres and Supabase. Use when writing SQL, migrations, row level security, or indexes, and when diagnosing a slow query.
 ---
 
 # postgres
 
-the video product is the Supabase app. Use this there. the desktop app is local SQLite — do not apply this file to it.
+Use this for Postgres and Supabase. A local SQLite app is a different problem, do not apply this file to it.
 
 ## Critical
 
@@ -41,7 +41,7 @@ the video product is the Supabase app. Use this there. the desktop app is local 
 
 ## Operator overlays
 
-- Trading / journal data never belongs in the video product's Supabase. Venture isolation is a schema decision.
+- One product's data does not belong in another product's database. Project isolation is a schema decision.
 - Migrations live in the repo and run in CI. Don't "just fix prod."
 - After a policy change, prove it with two roles. Then `verify`.
 

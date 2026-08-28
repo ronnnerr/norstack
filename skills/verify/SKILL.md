@@ -1,6 +1,6 @@
 ---
 name: verify
-description: Prove work before claiming done. Use before "fixed", "passing", "ready", or shipping.
+description: Confirm the work is actually done. Use when you ask whether something is finished. Requires evidence: a command that ran, a page that opened, a test that passed.
 ---
 
 # verify

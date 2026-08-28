@@ -1,13 +1,13 @@
 ---
 name: script
-description: Use when writing a YouTube script, the channel script, voiceover, narration, cold open, hook line, or "Every X Explained" draft. Use when you say write the script, write the hook, or draft this video. Not landing-page copy (copy) or ads (ads). Footage cuts of an existing first 3 seconds are hook.
+description: Write the words. Use for a YouTube script, voiceover, narration, cold open, or hook line. Use when you say write the script or draft this video. Landing page copy is copy. Ads are ads.
 ---
 
 # script
 
 One idea. One hook. Receipts on screen. If the first line needs a setup, it is not a hook.
 
-the channel → also load `channel`. Titles/CTAs after the script → `copy`. Animated version → `explainer`. Thumbnail line → `thumb`.
+Load `profile` for the channel's register. Titles and CTAs after the script go to `copy`. Thumbnail line → `thumb`.
 
 ## Output (fill this, in this order)
 
@@ -43,7 +43,7 @@ No receipt? Cut the beat. Do not pad with "researchers believe."
 
 Short (35–55s): 1 hook + 2 beats + payoff. ~90–130 spoken words.
 Long (8–14 min): hook + 5–8 beats + payoff. ~1,200–1,800 words.
-Explainer: same words, but every receipt becomes an on-screen card. `explainer` owns the cards.
+Explainer cut: same words, but every receipt becomes an on-screen card.
 
 ## Voice
 

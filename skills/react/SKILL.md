@@ -1,11 +1,11 @@
 ---
 name: react
-description: Next.js and React performance for your apps. Use when writing or reviewing the video product, pred, the journal app, or any React/Next code — waterfalls, bundles, RSC, re-renders.
+description: Next.js and React performance. Use when writing or reviewing React and Next code for waterfalls, bundle size, RSC boundaries, and unnecessary re-renders.
 ---
 
 # react
 
-the video product, pred, and the journal app are Next apps. the desktop app webview is React. This is the law for those codebases.
+For any Next.js app, and for a React webview inside a desktop shell, this file is the law.
 
 Load `profile` first. Don't carry one project's chrome onto another.
 
@@ -48,12 +48,12 @@ Load `profile` first. Don't carry one project's chrome onto another.
 ## Operator overlays
 
 - After a user-visible UI change, `browse` it. React that "looks right in code" is not done.
-- the desktop app: keyboard path first. No spinner where an optimistic update will do.
-- pred: never invent a number to make a component happy. Read disk or API.
-- the video product: video players and editors are the heavy bits. Dynamic-import them.
+- Operator tools: keyboard path first. No spinner where an optimistic update will do.
+- Data views: never invent a number to make a component render. Read disk or API.
+- Media apps: players and editors are the heavy bits. Dynamic-import them.
 
 ## Don't
 
 - Memo everything. Memo expensive work only.
 - Add SWR because a blog said so if the repo already has a fetcher.
-- Touch SQLite/the desktop app local DB rules here. That's not this skill.
+- Cover local SQLite rules here. That is a different skill.

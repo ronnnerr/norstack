@@ -1,6 +1,6 @@
 ---
 name: handoff
-description: Compact this session so the next agent can continue. Use when you say handoff, continue later, or switch chats/models.
+description: Compact the session so the next one can continue. Use when you say handoff, continue later, or switch models.
 ---
 
 # handoff
@@ -43,4 +43,4 @@ Skip trivia. Skip things already in `norstack learn search`.
 - Include file paths and the last verification command + its result.
 - Include unmade forks as **open**, not as recommendations dressed as fact.
 - Drop transcript fluff. Keep load-bearing numbers and names.
-- Venture isolation. Don't mix pred wallets into an the video product handoff.
+- project isolation. Do not mix one project's state into another project's handoff.

@@ -1,11 +1,10 @@
 ---
 name: ship
-description: Ship your work. Use when you say ship, PR, push, deploy, land it. Prefer gstack /ship machinery for git/PR mechanics if present; use this voice and these gates.
+description: Ship the work. Use when you say ship, PR, push, deploy, or land it. Runs the gates before anything leaves your machine.
 ---
 
 # ship
 
-If `~/.claude/skills/gstack/ship/SKILL.md` exists, use its git/PR mechanics (tests, changelog, PR body). Skip its telemetry, lake intro, and CLAUDE.md injection.
 
 ## Gates
 

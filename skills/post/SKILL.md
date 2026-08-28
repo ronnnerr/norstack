@@ -1,6 +1,6 @@
 ---
 name: post
-description: Package a talking-head for social. Portrait + thumbnail + caption. Use when you say post this, make it ready to upload, package this clip.
+description: Package a finished clip for social. Vertical crop, thumbnail, and caption together. Use when you say post this, package it, or make it ready to upload.
 ---
 
 # post

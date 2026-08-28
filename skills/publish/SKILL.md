@@ -1,6 +1,6 @@
 ---
 name: publish
-description: Use when packing a video or post to upload, writing YouTube titles/descriptions/chapters, a TikTok caption, a preflight before publish, or "is this ready to post." Does not log into YouTube or TikTok.
+description: Preflight before anything goes out. Use when packaging a video or post to upload, writing titles, descriptions, chapters, or captions, or asking whether something is ready to post. Does not log into any platform.
 ---
 
 # publish
@@ -12,7 +12,7 @@ Detect the project (`profile`). Identify the project and the platform.
 ## Checklist
 
 1. Open the file. `video` `see` the export if it is video. Read frames.
-2. Rights: the channel is original. Anime used **your dropped file** plus original diagrams. TikTok is a product you sell or affiliates. If that is not true, stop.
+2. Rights: confirm you own or licensed every asset in the cut. If that is not true, stop.
 3. Claims: no invented citations, income, or medical. Affiliate disclosed if Shop.
 4. Package:
    - YouTube: title (from script), first 2 description lines = hook + promise, sources, chapters from `shots.json`

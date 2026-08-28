@@ -1,6 +1,6 @@
 ---
 name: tdd
-description: Vertical-slice TDD. Use when implementing a feature or fix. One failing test, then just enough code. Seams, not internals.
+description: Test driven development. Use when implementing a feature or bugfix. Write the failing test first, then the code that passes it.
 ---
 
 # tdd
@@ -33,5 +33,5 @@ Write the **seams** (public boundaries) in one list. If the interface itself is 
 
 - Site behavior: after green, `browse` it.
 - Video helpers: test the crop math and the pan cap, then look at a frame.
-- pred: tests must not invent fills. Fixtures from real shapes, anonymized.
+- Data products: tests must never invent records. Build fixtures from real shapes, anonymized.
 - `verify` before you say done.

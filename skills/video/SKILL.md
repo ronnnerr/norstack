@@ -1,11 +1,10 @@
 ---
 name: video
-description: "your video stack. Use for any video: watch, understand, cut, grade, captions, shorts, 'what's in this clip', quality check a render. Replaces video-use. You MUST extract and look at frames. Transcript-only editing is a failure."
+description: Video pipeline: watch, understand, cut, grade, caption, quality check a render. Use for any footage question including "what is in this clip". You MUST extract and look at frames. Editing from a transcript alone is a failure.
 ---
 
 # video
 
-Stock video-use cannot see. It transcribes, reasons from text, and only peeks at a filmstrip at decision points. That is why it was bad.
 
 norstack inverts the pipeline: **see first, hear second, cut third.**
 
@@ -144,7 +143,6 @@ On confirmation, render without `--preview`. Append `edit/project.md`.
 
 ## When you say "what's in this video?"
 
-Stop after step 1–2. Answer from frames + OCR + transcript. This is the common case stock video-use failed.
 
 ## Animations
 
@@ -159,4 +157,3 @@ If the source is a URL and `yt-dlp` is missing, say so. Don't pretend you watche
 - Reason from the packed transcript alone
 - Call `timeline.py` a substitute for Reading frames
 - Skip `see.py` because "it's a talking head"
-- Use stock `~/.claude/skills/video-use` or `~/Developer/video-use/SKILL.md` as the process

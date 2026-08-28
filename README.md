@@ -28,14 +28,14 @@ stays on your machine.
 
 ## What is here
 
-37 skills across the work a solo operator actually does.
+36 skills across the work a solo operator actually does.
 
 | Slot | Skills |
 |---|---|
 | Identity | `norstack` `profile` |
 | Browser | `browse` `headed` `scrape` `qa` |
 | Video | `video` `portrait` `clip` `post` `hook` `thumb` `shorts` `film` |
-| Writing | `script` `explainer` `copy` `content` `humanizer` |
+| Writing | `script` `copy` `content` `humanizer` |
 | Marketing | `seo` `ads` |
 | Design | `ui` `taste` |
 | Motion | `remotion` `hyperframes` |

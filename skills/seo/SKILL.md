@@ -1,6 +1,6 @@
 ---
 name: seo
-description: Technical and on-page SEO audit. Use for the agency sites, client landings, the video product marketing, "why isn't this ranking," crawl/index/meta/CWV. Browse the live page. Don't curl and guess.
+description: Technical and on-page SEO audit. Use for site audits, landing pages, product marketing, and "why is this not ranking". Covers crawl, index, meta, and Core Web Vitals. Browse the live page rather than guessing from curl.
 ---
 
 # seo
@@ -36,7 +36,7 @@ No "consider improving." Name the file or tag.
 
 ## Operator overlays
 
-- Client pages: their brand keywords, not the desktop app language.
+- Client pages use their brand's keywords, not your product's language.
 - Don't invent Search Console numbers you didn't see.
 - After you change meta/canonical, `browse` the page again.
 - Schema false-negative from curl is a miss. Use browse.
